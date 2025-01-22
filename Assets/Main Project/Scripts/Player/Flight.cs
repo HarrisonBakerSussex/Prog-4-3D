@@ -49,7 +49,7 @@ public class Flight : MonoBehaviour
     private void FixedUpdate(){
         CalculateGravity();
         CalculateThrust();
-        CalculateThrust();
+        CalculateTorques();
         EnableTrails();
     }
 
